@@ -13,8 +13,6 @@
         font-family: "Playbill", arial;
     }
 
-
-
     #menu{
         background-color:whitesmoke;
         color: whitesmoke;
@@ -66,47 +64,55 @@
         height: auto;
         }
     
-        #button{
-            vertical-align: middle;
-            color:white;
-            background-color: #cf1212;
+    #img button{
+        vertical-align: middle;
+        text-decoration: none;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    
+    #button{
+        vertical-align: middle;
+        color:white;
+        background-color: #cf1212;
+        transition: all .5s;
+        text-decoration: none;
+        font-size: 15px;
+        display: inline-block;
+        padding: 10px 20px;
+        left: 30%;
+        top:30%;
+        border-radius: 10px;
+
+
+        ::before{
+            position:absolute;
+            content:"";
             transition: all .5s;
-            text-decoration: none;
-            font-size: 15px;
-            display: inline-block;
-            padding: 10px 20px;
-            left: 30%;
-            top:30%;
-            border-radius: 10px;
-
-
-             ::before{
-                position:absolute;
-                content:"";
-                transition: all .5s;
-                bottom: -15px;
-                height: 15px;
-                width: 100%;
-                left: 8px;
-                transform: translateX(20px);
-                background-color: darken(#cf1212 20%);
+            bottom: -15px;
+            height: 15px;
+            width: 100%;
+            left: 8px;
+            transform: translateX(20px);
+            background-color: darken(#cf1212 20%);
             }
 
-             ::after{
-                position:absolute;
-                content: "";
-                transition: all .5s;
-                right:-15px;
-                height: 100%;
-                width: 15px;
-                bottom: -8px;
-                transform: TranslateY(20px);
-                background-color: darken(#cf1212 30%);
+        ::after{
+            position:absolute;
+            content: "";
+            transition: all .5s;
+            right:-15px;
+            height: 100%;
+            width: 15px;
+            bottom: -8px;
+            transform: TranslateY(20px);
+            background-color: darken(#cf1212 30%);
             }
 
-            button:active{
-                margin-left: 10px;
-                margin-top: 10px;
+        button:active{
+            margin-left: 10px;
+            margin-top: 10px;
                 ::before{
                     bottom: -5px;
                     height: 5px;
@@ -118,11 +124,11 @@
                 right: -5px;
                 width: 5px;
                 bottom: -3px;
-                }
             }
+        }
 
             button:hover{
-                box-shadow: 2px 2px black;
+                box-shadow: 2px 2px rgb(100, 4, 4);
             }
         }
     
@@ -135,9 +141,6 @@
         font-size: 16px;
     
         }
-    
-        
-
 </style>
 </head>
 <body>
@@ -165,10 +168,11 @@ Kérem tekintse meg kínálatunkat  mind termékek, mind szolgáltatások vonatk
 </p>    
 </div>
 <div id="images">
-    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_dahua.jpg" alt="dahua"><br>
-    <a href="file:///C:/Users/Tamas/Desktop/ABS/1_oldal.html" width="1200"><button>Kamerák</button></a>
+    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_dahua.jpg" alt="dahua" margin-top="10" width="900"> <br> <br>
+    <a href="file:///C:/Users/Tamas/Desktop/ABS/1_oldal.html"><button>Kamerák</button></a>
 
-    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_paradox.jpg" alt="paradox"> <br>
+   
+    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_paradox.jpg" alt="paradox" margin-top="10"> <br>
     <a href="file:///C:/Users/Tamas/Desktop/ABS/2_oldal.html"><button>Riasztók</button></a>
 
     <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_3.png" alt="antibandita"><br>

@@ -6,113 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://allfont.net/allfont.css?fonts=playbill" rel="stylesheet" type="text/css" />
     <title>Document</title>
-    <style>
-        #font{
-            color:black;
-            text-align: center;
-            font-family: "Playbill", arial;
+  <style>#font{
+    color:black;
+    text-align: center;
+    font-family: "Playbill", arial;
+}
+
+#menu{
+background-color:whitesmoke;
+color: whitesmoke;
+font-family: "Monaco", monospace;
+padding-top: 5px; 
+padding-bottom: 5px;
+text-decoration: none;
+}
+
+#menu li{
+    display: inline;           
+    list"style"type:non;
+    margin-right: 150px;
+    }
+
+#menu ul{
+    text-align:center;
+    background-color: whitesmoke;
+}
+
+#menu a:hover{
+  color:#e21313;
+}
+
+#menu li a {
+    color: black;
+    font-family: "Monaco", monospace;
+    background-color: whitesmoke;
+    }
+
+#footer{
+    background-color:whitesmoke;
+    font-family: "Monaco", monospace;
+    color: black;
+    padding-top: 5px;
+    paddingg-bottom: 10px;
+    text-align: center;
+    }
+
+#button{
+    vertical-align: middle;
+    color:white;
+    background-color: #cf1212;
+    transition: all .5s;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    left: 30%;
+    top:30%;
+    border-radius: 10px;
+    border: 0px;
+
+
+     ::before{
+        position:absolute;
+        content:"";
+        transition: all .5s;
+        bottom: -15px;
+        height: 15px;
+        width: 100%;
+        left: 8px;
+        transform: translateX(20px);
+        background-color: darken(#cf1212 20%);
+    }
+
+     ::after{
+        position:absolute;
+        content: "";
+        transition: all .5s;
+        right:-15px;
+        height: 100%;
+        width: 15px;
+        bottom: -8px;
+        transform: TranslateY(20px);
+        background-color: darken(#cf1212 30%);
+    }
+
+    button:active{
+        margin-left: 10px;
+        margin-top: 10px;
+        ::before{
+            bottom: -5px;
+            height: 5px;
+            left: 3px;
         }
 
-        #menu{
-        background-color:whitesmoke;
-        color: whitesmoke;
-        font-family: "Monaco", monospace;
-        padding-top: 5px; 
-        padding-bottom: 5px;
-        text-decoration: none;
+
+    ::after{
+        right: -5px;
+        width: 5px;
+        bottom: -3px;
         }
+    }
 
-        #menu li{
-            display: inline;           
-            list"style"type:non;
-            margin-right: 150px;
-            }
-        
-        #menu ul{
-            text-align:center;
-            background-color: whitesmoke;
-        }
-        
-        #menu a:hover{
-          color:#e21313;
-        }
-        
-        #menu li a {
-            color: black;
-            font-family: "Monaco", monospace;
-            background-color: whitesmoke;
-            }
-    
-        #footer{
-            background-color:whitesmoke;
-            font-family: "Monaco", monospace;
-            color: black;
-            padding-top: 5px;
-            paddingg-bottom: 10px;
-            text-align: center;
-            }
-        
-        #button{
-            vertical-align: middle;
-            color:white;
-            background-color: #cf1212;
-            transition: all .5s;
-            text-decoration: none;
-            font-size: 15px;
-            display: inline-block;
-            padding: 10px 20px;
-            left: 30%;
-            top:30%;
-            border-radius: 10px;
-            border: 0px;
+    button:hover{
+        box-shadow: 2px 2px black;
+    }
+}
 
-
-             ::before{
-                position:absolute;
-                content:"";
-                transition: all .5s;
-                bottom: -15px;
-                height: 15px;
-                width: 100%;
-                left: 8px;
-                transform: translateX(20px);
-                background-color: darken(#cf1212 20%);
-            }
-
-             ::after{
-                position:absolute;
-                content: "";
-                transition: all .5s;
-                right:-15px;
-                height: 100%;
-                width: 15px;
-                bottom: -8px;
-                transform: TranslateY(20px);
-                background-color: darken(#cf1212 30%);
-            }
-
-            button:active{
-                margin-left: 10px;
-                margin-top: 10px;
-                ::before{
-                    bottom: -5px;
-                    height: 5px;
-                    left: 3px;
-                }
-        
-
-            ::after{
-                right: -5px;
-                width: 5px;
-                bottom: -3px;
-                }
-            }
-
-            button:hover{
-                box-shadow: 2px 2px black;
-            }
-        }
-    </style>
+#font2{
+margin-top: 20px;
+margin-left: 30px;
+margin-right: 30px;
+color:black;
+text-align:center;
+font-family: "Bank Gothic Medium bt", monospace;
+font-weight: bolder;
+font-size: 16px;
+}
+</style>
 </head>
 <body>
     <center><img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\aantibandita.jpg" alt="antibanditasecurity" width="1200"></center>
@@ -130,6 +140,17 @@
 <br>
 <center><img src="file:///C:/Users/Tamas/Desktop/ABS/képek/abs_dahua2.jpg" alt="kamerak" width="1300"></center>
 
+<p id="font2">A Dahua Technology a világ egyik vezető biztonságtechnikai eszközöket gyártó cége, 600 szabadalommal. 
+    A cég széles termékpalettát vonultat fel az innovatív biztonságtechnológiai megoldások területén a 
+    kamerás megfigyeléstől kezdve az intelligens közlekedési, épületüzemeltetési, beléptető rendszereken, 
+    videó kaputelefonokon keresztül a kereskedelmi kijelzőkig és ipari drón technológiáig.
+    <br><br>
+    A globális biztonságtechnikai piac egyik vezető gyártó cégeként kiemelt figyelmet 
+    fordít a kutatás-fejlesztésre. Az éves értékesítési árbevétel 10%-ának visszaforgatásával és a K+F 
+    területén dolgozó több, mint 6000 műszaki szakember és kutató közreműködésének köszönhetően Ön biztos 
+    lehet abban, hogy a Dahua a legkorszerűbb technológiát biztosítja Önnek a biztonsági kamera rendszerek, 
+    intelligens közlekedési, épületüzemeltetési és beléptető rendszerek, video kaputelefonok, intelligens 
+    zárak, digitális kereskedelmi megjelenítő eszközök és drón technológia területén.</p>
 <br>
     <div id="footer">
         <p>Antibandita Security Kft</p> <br>
