@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +13,7 @@
         font-family: "Playbill", arial;
     }
 
-    #font2{
-        color:black;
-        text-align: right;
-        font-family: "Monaco", monospace;
 
-    
-    }
 
     #menu{
         background-color:whitesmoke;
@@ -65,123 +58,92 @@
         text-align: center;
         font-size: medium;
 
-    }
-</style>
-</head>
-<body>
+        }
+    
+    #images{
+        margin: 300px;
+        width: 800px;
+        height: auto;
+        }
+    
+        #button{
+            vertical-align: middle;
+            color:white;
+            background-color: #cf1212;
+            transition: all .5s;
+            text-decoration: none;
+            font-size: 15px;
+            display: inline-block;
+            padding: 10px 20px;
+            left: 30%;
+            top:30%;
+            border-radius: 10px;
 
-<center><img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\aantibandita.jpg" alt="antibanditasecurity" width="1200"></center>
 
-<div id="menu">
-    <ul>
-        <li><a href="file:///C:/Users/Tamas/Desktop/ABS/Fooldal_.html">Főoldal</a></li>
-        <li><a href="file:///C:/Users/Tamas/Desktop/ABS/1_oldal.html">Kamerák</a></li>
-        <li><a href="file:///C:/Users/Tamas/Desktop/ABS/2_oldal.html">Riasztók</a></li>
-        <li><a href="file:///C:/Users/Tamas/Desktop/ABS/3_oldal.html">Referencia munkák</a></li>
-        <li><a href="file:///C:/Users/Tamas/Desktop/ABS/4_oldal.html">Elérhetőségeink</a></li>
-    </ul>
-</div>
-    <br><br>
-<div id="para">
-<p>
-Tisztelt érdeklődő!<br>
-Cégünk az ANTIBANDITA SECURITY Kft. azzal a céllal alakult, hogy minél inkább megkönnyítse a cégek, és magánszemélyek harcát a nehezen megszerzett javaik védelmében.<br>
-Manapság egyre inkább jellemzőbb a "megélhetési bűnözés". E fogalom mögé bújtatják a gazdasági válság, és egyéb okok miatt kifejlődött  bűnözési hullámot.<br>
-Eljutottunk arra a pontra, hogy egyre többen nem tisztelik a magántulajdont, és a szerintük könnyebbnek vélt megélhetési formát, a bűnözést választják.<br>
-Mi ezt szeretnénk meggátolni, az egyre inkább tökéletesődő biztonságtechnikák alkalmazásával, legyen ez riasztórendszer, kamerarendszer, vagy egyéb megfigyelőrendszer. <br>
-Kérem tekintse meg kínálatunkat  mind termékek, mind szolgáltatások vonatkozásában. 
-</p>    <br><br>
-</div>
-<img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_dahua.jpg" align="center" width="800" alt="dahua"><br>
-<img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_paradox.jpg" alt="paradox"> <br>
+             ::before{
+                position:absolute;
+                content:"";
+                transition: all .5s;
+                bottom: -15px;
+                height: 15px;
+                width: 100%;
+                left: 8px;
+                transform: translateX(20px);
+                background-color: darken(#cf1212 20%);
+            }
 
-<div id="footer">
-    <p>Antibandita Security Kft</p> <br>
-    <a href="mailto:info@antibandita.hu"><button>Küldj emailt!</button></a>
-    <p>Keress minket telefonon! <br>
-    Bujdosó László:</p>
-    <a href="tel:+36303943475"><button>Hívás most!</button></a><br>
-    <p>Bujdosó Bence:</p>
-    <a href="tel:+36305644519"><button>Hívás most!</button></a>
-</div>
-<script type="text/javascript">
-</script>    
-</body>
-</html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://allfont.net/allfont.css?fonts=playbill" rel="stylesheet" type="text/css" />
-    <title>Document</title>
-   <style>
-    #font{
-        color:black;
-        text-align: center;
-        font-family: "Playbill", arial;
-    }
+             ::after{
+                position:absolute;
+                content: "";
+                transition: all .5s;
+                right:-15px;
+                height: 100%;
+                width: 15px;
+                bottom: -8px;
+                transform: TranslateY(20px);
+                background-color: darken(#cf1212 30%);
+            }
 
+            button:active{
+                margin-left: 10px;
+                margin-top: 10px;
+                ::before{
+                    bottom: -5px;
+                    height: 5px;
+                    left: 3px;
+                }
+        
+
+            ::after{
+                right: -5px;
+                width: 5px;
+                bottom: -3px;
+                }
+            }
+
+            button:hover{
+                box-shadow: 2px 2px black;
+            }
+        }
+    
     #font2{
+        margin-top: 50px;
         color:black;
-        text-align: right;
-        font-family: "Monaco", monospace;
-
-    
-    }
-
-    #menu{
-        background-color:whitesmoke;
-        color: whitesmoke;
-        font-family: "Monaco", monospace;
-        padding-top: 5px; 
-        padding-bottom: 5px;
-        text-decoration: none;
-    }
-
-    #menu li{
-        display: inline;           
-        list"style"type:non;
-        margin-right: 100px;
-    }
-    
-    #menu ul{
         text-align:center;
-        background-color: whitesmoke;
-    }
+        font-family: "Bank Gothic Medium bt", monospace;
+        font-weight: bolder;
+        font-size: 16px;
     
-    #menu a:hover{
-      color:#e21313;
-    }
+        }
     
-    #menu li a {
-        color: black;
-        font-family: "Monaco", monospace;
-        background-color: whitesmoke;
-        }
+        
 
-    #footer{
-        background-color:whitesmoke;
-        font-family: "Monaco", monospace;
-        color: black;
-        padding-top: 5px;
-        paddingg-bottom: 10px;
-        text-align: center;
-        }
-
-    #para{
-        text-align: center;
-        font-size: medium;
-
-    }
 </style>
 </head>
 <body>
 
 <center><img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\aantibandita.jpg" alt="antibanditasecurity" width="1200"></center>
-
+<input type="search" maxlenght="40" name="kereső" placeholder="Kereső" > <br><br>
 <div id="menu">
     <ul>
         <li><a href="file:///C:/Users/Tamas/Desktop/ABS/Fooldal_.html">Főoldal</a></li>
@@ -193,28 +155,36 @@ Kérem tekintse meg kínálatunkat  mind termékek, mind szolgáltatások vonatk
 </div>
     <br><br>
 <div id="para">
-<p>
-Tisztelt érdeklődő!<br>
+<p id="font2">
+Tisztelt Érdeklődő!<br>
 Cégünk az ANTIBANDITA SECURITY Kft. azzal a céllal alakult, hogy minél inkább megkönnyítse a cégek, és magánszemélyek harcát a nehezen megszerzett javaik védelmében.<br>
 Manapság egyre inkább jellemzőbb a "megélhetési bűnözés". E fogalom mögé bújtatják a gazdasági válság, és egyéb okok miatt kifejlődött  bűnözési hullámot.<br>
 Eljutottunk arra a pontra, hogy egyre többen nem tisztelik a magántulajdont, és a szerintük könnyebbnek vélt megélhetési formát, a bűnözést választják.<br>
 Mi ezt szeretnénk meggátolni, az egyre inkább tökéletesődő biztonságtechnikák alkalmazásával, legyen ez riasztórendszer, kamerarendszer, vagy egyéb megfigyelőrendszer. <br>
 Kérem tekintse meg kínálatunkat  mind termékek, mind szolgáltatások vonatkozásában. 
-</p>    <br><br>
+</p>    
 </div>
-<img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_dahua.jpg"><br>
+<div id="images">
+    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_dahua.jpg" alt="dahua"><br>
+    <a href="file:///C:/Users/Tamas/Desktop/ABS/1_oldal.html" width="1200"><button>Kamerák</button></a>
+
+    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_paradox.jpg" alt="paradox"> <br>
+    <a href="file:///C:/Users/Tamas/Desktop/ABS/2_oldal.html"><button>Riasztók</button></a>
+
+    <img src="file:\\\C:\Users\Tamas\Desktop\ABS\képek\abs_3.png" alt="antibandita"><br>
+    <a href="file:///C:/Users/Tamas/Desktop/ABS/4_oldal.html"><button>Kérdésed van? Keress minket bizalommal elérhetőségeinken!</button></a> 
+</div>
 
 <div id="footer">
     <p>Antibandita Security Kft</p> <br>
-    <a href="mailto:info@antibandita.hu"><button>Küldj emailt!</button></a>
+    <a href="mailto:info@antibandita.hu"><button id="button">Küldj emailt!</button></a>
     <p>Keress minket telefonon! <br>
     Bujdosó László:</p>
-    <a href="tel:+36303943475"><button>Hívás most!</button></a><br>
+    <a href="tel:+36303943475"><button id="button">Hívás most!</button></a><br>
     <p>Bujdosó Bence:</p>
-    <a href="tel:+36305644519"><button>Hívás most!</button></a>
+    <a href="tel:+36305644519"><button id="button">Hívás most!</button></a>
 </div>
 <script type="text/javascript">
 </script>    
 </body>
 </html>
->>>>>>> 6660ed236cdd9273e930dd9d3c242eccc919d827
