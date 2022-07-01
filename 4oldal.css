@@ -1,0 +1,111 @@
+#font{
+    color:black;
+    text-align: center;
+    font-family: "Playbill", arial;
+}
+
+#menu{
+background-color:whitesmoke;
+color: whitesmoke;
+font-family: "Monaco", monospace;
+padding-top: 5px; 
+padding-bottom: 5px;
+text-decoration: none;
+}
+
+#menu li{
+    display: inline;           
+    list-style: none;
+    margin-right: 100px;
+    }
+
+#menu ul{
+    text-align:center;
+    background-color: whitesmoke;
+}
+
+#menu a:hover{
+  color:#e21313;
+}
+
+#menu li a {
+    color: black;
+    font-family: "Monaco", monospace;
+    background-color: whitesmoke;
+    text-decoration: none;
+    }
+
+#footer{
+    background-color:whitesmoke;
+    font-family: "Monaco", monospace;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+
+    #button4{
+border-radius: 100rem;
+padding: 1rem;
+font-family: 'Avenir Next';
+font-size: 1rem;
+padding: .5rem 3rem;
+color: $color-black;
+box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+background-color: white;
+color: $color-black ;
+border:  3px solid transparent ;
+padding: .5rem 3rem;
+background-image: linear-gradient(#cf1212, #cf1212), linear-gradient(#cf1212, #cf1212);
+background-origin: border-box;
+background-clip: content-box, border-box;
+box-shadow: 2px 1000px 1px #fff inset;
+
+}
+
+#button4:hover {
+box-shadow: none;
+color: white;
+}
+
+#font2{
+margin-top: 20px;
+margin-left: 30px;
+margin-right: 30px;
+color:black;
+text-align:center;
+font-family: "Bank Gothic Medium bt", monospace;
+font-weight: bolder;
+font-size: 16px;
+}
+
+#gallery {
+margin: 5px;
+margin-left: 400px;
+border: 1px solid #ccc;
+width: 500px;
+border-radius: 10px;
+
+}
+
+gallery:hover {
+   border: 1px solid #777;
+}
+
+#gallery img {
+width: 500px;
+height: auto;
+border-radius: 10px;
+}
+
+div.desc {
+padding: 15px;
+text-align: center; 
+font-family: "Bank Gothic Medium bt", monospace;  
+}
+
+.li{
+list-style: none;
+margin: 10px;
+text-align: center;
+}

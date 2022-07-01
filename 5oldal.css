@@ -1,0 +1,120 @@
+#font{
+    color:black;
+    text-align: center;
+    font-family: "Playbill", arial;
+}
+
+#menu{
+    background-color:whitesmoke;
+    color: whitesmoke;
+    font-family: "Monaco", monospace;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    text-decoration: none;
+    }
+
+#menu li{
+    display: inline;           
+    list-style: none;
+    margin-right: 100px;
+    }
+
+#menu ul{
+    text-align: center;
+    background-color: whitesmoke;
+    }
+
+#menu a:hover{
+    color:#e21313;
+    }
+
+#menu li a {
+    color: black;
+    font-family: "Monaco", monospace;
+    background-color: whitesmoke;
+    text-decoration: none;
+    }
+
+#footer{
+    background-color:whitesmoke;
+    font-family: "Monaco", monospace;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+
+#para{
+    text-align: center;
+    font-size: medium;
+
+    }
+
+#images{
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 800px;
+    height: auto;
+    opacity: 0,3;
+    }
+
+
+#button4{
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: $color-black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-color: white;
+    color: $color-black ;
+    border:  3px solid transparent ;
+    padding: .5rem 3rem;
+    background-image: linear-gradient(#cf1212, #cf1212), linear-gradient(#cf1212, #cf1212);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+#button4:hover {
+    box-shadow: none;
+    color: white;
+}
+
+#font2{
+    margin-top: 50px;
+    color:black;
+    text-align: center;
+    font-family: "Bank Gothic Medium bt", monospace;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.list{
+    list-style: none;
+    margin: 5px;
+    magin-top: 50px;
+    text-align: center;
+}
+
+.list2{
+    list-style: none;
+    margin-left: 450px;
+}
+
+#font3{
+    margin-top: 50px;
+    color:black;
+    text-align: center;
+    font-family: "Bank Gothic Medium bt", monospace;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#map{
+    width: 500px;
+    height: 500px;
+    border: none;
+    margin-top: 50px;
+}
